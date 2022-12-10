@@ -154,7 +154,7 @@ function borrarCookie(evt) {
 //Mensaje a mostrar en la ventana emergente.
 function mostrarVentanaAvisoCookies() {
   let mensajeCookies =
-    '<p style="text-align:justify;">Utilizamos cookies de análisis para estudiar el comportamiento de los usuarios en la plataforma con el objetivo de introducir mejoras en el servicio.</p><p style="text-align:justify;"> Puedes informarte más en nuestra página de <a style="margin:0" target="_blank" href="../politica_de_cookies.html">Política de Cookies</a> o desactivarlas en los ajustes del navegador.</p><p style="text-align:center;">Haga click en Cancelar si no desea que almacenemos cookies en su equipo.</p>'
+    '<p style="text-align:justify;">Utilizamos cookies de análisis para estudiar el comportamiento de los usuarios en la plataforma con el objetivo de introducir mejoras en el servicio.</p><p style="text-align:justify;"> Puedes informarte más en nuestra página de <a style="margin:0" target="_blank" href="./politica_de_cookies.html">Política de Cookies</a> o desactivarlas en los ajustes del navegador.</p><p style="text-align:center;">Haga click en Cancelar si no desea que almacenemos cookies en su equipo.</p>'
 
   Swal.fire({
     title: 'Este sitio web utiliza cookies',
